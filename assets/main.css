@@ -70,7 +70,7 @@ main {
     flex-direction: column;
 }
 
-section{
+section {
     color: white;
     padding: 0 15px 15px 15px;
 }
@@ -96,8 +96,53 @@ section li {
 
 #pie-chart {
     text-align: center;
-    width: 300px;
+    width: 100%;
 }
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #000000;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #CAE9FF;
+}
+tr:nth-child(2n-1) {
+    background-color: #89c6ea;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #046daa;
+    color: rgb(21, 15, 15);
+}
+
+/* Tabble and Pie Chart Flex Container */
+
+.pie-chart-and-table-flex-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.pie-chart-and-table-flex-container div {
+    margin-bottom: 10px;
+}
+
 
 /* Dropdown menu styles */
 
@@ -170,7 +215,7 @@ section li {
     margin-bottom: 20px;
     font-size: 150%;
     margin-bottom: 20px;
-    
+
 }
 
 #hero p {
@@ -195,7 +240,7 @@ section li {
     border-radius: 5px;
 }
 
-#back-to-top-point{
+#back-to-top-point {
     visibility: hidden;
 }
 
@@ -248,8 +293,8 @@ footer p {
     margin: 5px;
 }
 
-@media(min-width:769px){
-.navbar-one {
+@media screen and (min-width:769px) {
+    .navbar-one {
         display: block;
     }
 
@@ -264,22 +309,22 @@ footer p {
 
 
 @media(min-width:768px) {
-    
+
 
     #hero {
         height: 200px;
     }
 
     #hero h1 {
-    color: #fffffffb;
-    margin-bottom: 20px;
-    font-size: 200%
-}
+        color: #fffffffb;
+        margin-bottom: 20px;
+        font-size: 200%
+    }
 
-#hero p {
-    color: #fffffffb;
-    font-size: 150%
-}
+    #hero p {
+        color: #fffffffb;
+        font-size: 150%
+    }
 
 }
 
@@ -292,3 +337,32 @@ footer p {
         font-size: 0.8rem;
     }
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    #benefits-table{
+        width: 400px;
+    }
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #pie-chart{
+        width: 100%;
+    }
+    #benefits-table{
+        width: 100%;
+    }
+
+    .pie-chart-and-table-flex-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+}
+.pie-chart-and-table-flex-container div {
+    margin-left: 15px;
+}
+}
+
