@@ -2,6 +2,10 @@
 # Introduction
 The name of this website is D&I and is being developed as part of Code Institutes "Individual Formative Assignment" which is part of the AI Augmented FullStack Bootcamp. The purpose of the website is to give the user a comprehensive and in-depth look at what diversity and inclusion are, why they are important, how they can impact workplace environments and some real-world examples of them. A mobile-first approach is taken to develop the application.
 
+# Link To Site
+
+https://majestic-speculoos-d4acd6.netlify.app/ 
+
 # UX/UI Study
 
 ## User Stories 
