@@ -5,8 +5,6 @@
   padding: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
 /* Header styles */
 
 header {
@@ -62,6 +60,7 @@ header a {
   position: fixed;
   top: 5px;
   left: 2px;
+  width: 50px;
 }
 
 main {
