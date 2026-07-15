@@ -20,8 +20,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
 
+    
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap");
+    
+        
+
     </style>
 </head>
 
@@ -34,7 +38,7 @@
                 <ul id="menu">
                     <li><a href="#about-us-pointer">About Us</a></li>
                     <li><a href="#services-pointer">Services</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="navbar-two">
@@ -43,7 +47,7 @@
                     <div class="dropdown-content">
                         <a href="#about-us-pointer">About Us</a>
                         <a href="#services-pointer">Services</a>
-                        <a href="#">Contact Us</a>
+                        <a href="#contact">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -109,9 +113,24 @@
                 The table and pie chart below shows the proportions of commonly reported benefits of diversity in the
                 workplace
             </p>
+            <div class="slider">
+
+                <a href="#slide-1"><i class="fa-solid fa-chart-pie"></i></a>
+                <a href="#slide-2"><i class="fa-solid fa-table"></i></a>
+
+                <div class="slides">
+                    <div id="slide-1">
+                        <img id="pie-chart" src="assets/images/pie-chart2.png" alt="An image of a pie chart">
+                    </div>
+                    <div id="slide-2">
+                        <img id = "table" src="assets/images/benefits-table.png" alt="">
+                    </div>
+                </div>
+            </div>
+
             <div class="pie-chart-and-table-flex-container">
                 <div>
-                    <img id="pie-chart" src="assets/images/pie-chart.png" alt="An image of a pie chart">
+                    <img id="pie-chart" src="assets/images/pie-chart2.png" alt="An image of a pie chart">
                 </div>
                 <div>
                     <table id="benefits-table">
@@ -242,7 +261,7 @@
                     <input type="text" name="name" placeholder="Email">
                     <input type="text" name="name" placeholder="Phone number">
                 </div>
-                
+
                 <div>
                     <textarea rows="4" placeholder="Message"></textarea>
                 </div>

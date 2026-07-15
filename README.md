@@ -236,3 +236,10 @@ Functional requirements describe what the website must do to meet the needs of i
 
 ### Color Pallete Used
 ![Screenshot of wireframes for mobile, tablet and desktop](color-pallete.png)
+
+### Imagery
+* Icons have been used to represent social media links in the footer 
+* A logo has been created to represent the site and is placed on the left-side of the header
+
+### Typography
+* font-family: Arial, Helvetica, sans-serif;
