@@ -180,7 +180,6 @@ As a user, I want the website to use semantic HTML5 elements so that the content
   - &lt;section&gt;
   - &lt;article&gt; (where appropriate)
   - &lt;footer&gt;
-- Only one &lt;h1&gt; element exists.
 - Heading levels follow a logical hierarchy.
 
 ## Strategy Plane
