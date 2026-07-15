@@ -32,8 +32,8 @@
         <nav>
             <div class="navbar-one">
                 <ul id="menu">
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Service</a></li>
+                    <li><a href="#about-us-pointer">About Us</a></li>
+                    <li><a href="#services-pointer">Services</a></li>
                     <li><a href="">Contact Us</a></li>
                 </ul>
             </div>
@@ -41,8 +41,8 @@
                 <div class="dropdown">
                     <button class="dropbtn">Menu</button>
                     <div class="dropdown-content">
-                        <a href="#about">About Us</a>
-                        <a href="#services">Services</a>
+                        <a href="#about-us-pointer">About Us</a>
+                        <a href="#services-pointer">Services</a>
                         <a href="#">Contact Us</a>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
     </header>
     <main>
         <section id="hero">
-            <h1>Diversity and Inclusion</h1>
+            <h1>Diversity and Inclusion</h1><span id="about-us-pointer"></span>
             <p>A comprehensive guide to understanding diversity and inclusion and why they matter in workplaces</p>
         </section>
         <section id="about">
@@ -141,23 +141,29 @@
         </section>
         <section>
             <h1>Common Examples</h1>
-            <p>
-                <h2>Diversity</h2>
-                <ul>
-                    <li>Employing people of different races and ethnicities</li>
-                    <li>Having employees from various age groups</li>
-                    <li>Having employees from different religions</li>
-                </ul>
-            </p>
-            <p>
-                <h2>Inclusion</h2>
-                <ul>
-                    <li>Ensuring all employees have equal opportunities for promotions and leadership roles </li>
-                    <li>Providing accommodations for employees with disabilities, such as screen readers or flexible
-                        workspaces </li>
-                    <li>Providing mentorship programs for employees from diverse backgrounds</li>
-                </ul>
-            </p>
+            <div class="examples-flex-container">
+                <div>
+                    <p>
+                        <h2>Diversity</h2>
+                        <ul>
+                            <li>Employing people of different races and ethnicities</li>
+                            <li>Having employees from various age groups</li>
+                            <li>Having employees from different religions</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <h2>Inclusion</h2>
+                        <ul>
+                            <li>Ensuring all employees have equal opportunities </li>
+                            <li>Providing accommodations for employees with disabilities</li>
+                            <li>Providing mentorship programs for employees from diverse backgrounds</li>
+                            <span id="services-pointer"></span>
+                        </ul>
+                    </p>
+                </div>
+            </div>
         </section>
         <section id="services">
             <h1>Our Services</h1>
@@ -181,7 +187,7 @@
                     <img src="assets/images/assessments.webp" alt="">
                     <h3>Assessments</h3>
                     <p>Our assessments involve one of our agents coming on sight to assess the quality of the diversity
-                        and inclusion 
+                        and inclusion
                     </p>
                 </div>
             </div>
@@ -213,14 +219,35 @@
             <h1>Summary</h1>
             <p>
                 <ul>
-                    <li><strong>Diversity</strong>: Valuing differences in backgrounds, identities, experiences, perspectives, and ways of thinking</li>
-                    <li><strong>Inclusion</strong>: Creating an environment where everyone feels respected, welcomed, and able to participate fully</li>
-                    <li><strong>Equity</strong>: Ensuring fair access to opportunities by recognizing and addressing different needs and barriers</li>
-                    <li><strong>Respect and Belonging</strong>: Fostering a culture where people feel accepted, valued, and safe to be themselves</li>
-                    <li><strong>Accessibility and Equal Opportunity</strong>: Removing barriers and providing fair access to participation, development, and success</li>
-                    <li><strong>Awareness and Collaboration</strong>: Encouraging respectful communication, reducing bias, and valuing diverse perspectives to strengthen teamwork and decision-making</li>
+                    <li><strong>Diversity</strong>: Valuing differences in backgrounds, identities, experiences,
+                        perspectives, and ways of thinking</li>
+                    <li><strong>Inclusion</strong>: Creating an environment where everyone feels respected, welcomed,
+                        and able to participate fully</li>
+                    <li><strong>Equity</strong>: Ensuring fair access to opportunities by recognizing and addressing
+                        different needs and barriers</li>
+                    <li><strong>Respect and Belonging</strong>: Fostering a culture where people feel accepted, valued,
+                        and safe to be themselves</li>
+                    <li><strong>Accessibility and Equal Opportunity</strong>: Removing barriers and providing fair
+                        access to participation, development, and success</li>
+                    <li><strong>Awareness and Collaboration</strong>: Encouraging respectful communication, reducing
+                        bias, and valuing diverse perspectives to strengthen teamwork and decision-making</li>
                 </ul>
             </p>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <form action="/">
+                <div class="info">
+                    <input class="fname" type="text" name="name" placeholder="Full name">
+                    <input type="text" name="name" placeholder="Email">
+                    <input type="text" name="name" placeholder="Phone number">
+                </div>
+                
+                <div>
+                    <textarea rows="4" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" href="/">Submit</button>
+            </form>
         </section>
     </main>
     <div id="back-to-top"><a href="#back-to-top-point"><i class="fa-solid fa-angle-up fa-2xl"
