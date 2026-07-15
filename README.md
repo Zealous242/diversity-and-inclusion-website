@@ -243,3 +243,12 @@ Functional requirements describe what the website must do to meet the needs of i
 
 ### Typography
 * font-family: Arial, Helvetica, sans-serif;
+
+# Website Features
+
+D&I has the following features implemented into it to allow for the UI to be intuitive and easy to follow:
+
+* A responsive navigation bar that remains fixed at the top of the page so that it is easy and quick to find
+* A hero section at the top of the page to give a brief introduction to the website
+* Animations have been added to areas like the navbar links and table rows to add hover effects
+* 
