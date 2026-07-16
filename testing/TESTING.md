@@ -32,7 +32,7 @@ This document outlines the testing of various different aspects of the applicati
 ![Screenshot of the Lighthouse testing results on mobile](lighthouse-audit-mobile.png)
 
 ### Desktop
-![Screenshot of the Lighthouse testing results on desktop](testing\lighthouse-audit-desktop.png)
+![Screenshot of the Lighthouse testing results on desktop](lighthouse-audit-desktop.png)
 
 
 ## Responsiveness Testing
