@@ -252,7 +252,7 @@ th {
 /* Dropdown menu styles */
 
 .dropbtn {
-  background-color: #043d99;
+  background-color: #5fa8d3;
   color: white;
   padding: 7px 20px;
   font-size: 16px;
@@ -268,7 +268,7 @@ th {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #00d9ff;
+  background-color: #bee9e8;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
@@ -293,7 +293,7 @@ th {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #2cdcfb;
+  background-color: #bee9e8;
   color: #000000;
 }
 
@@ -415,7 +415,11 @@ section#examples h2 {
   bottom: 50px;
   right: 10px;
   border-radius: 5px;
-  border: #00d9ff 1px solid;
+  border: rgb(116, 192, 252) 1px solid;
+}
+
+#back-to-top:hover {
+  border: rgb(116, 192, 252) 3px solid;
 }
 
 #back-to-top-point {
