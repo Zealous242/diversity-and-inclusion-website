@@ -77,7 +77,7 @@ As a visitor, I want the website to work well on desktops, tablets, and mobile d
 
 **Evidence:**
 
-See responsiness testing section above
+See responsiveness testing section above
 
 ### Understanding Diversity (Must Have)
 
