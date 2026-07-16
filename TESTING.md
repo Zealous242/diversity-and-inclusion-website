@@ -13,7 +13,7 @@ This document outlines the testing of various different aspects of the applicati
 ### HTML5 Validation
 
 **Before**
-![Screenshot of the HTML5 validator results before testing](testing\html-validator-before.png)
+![Screenshot of the HTML5 validator results before testing](.\testing\html-validator-before.png)
 
 **After**
 ![Screenshot of the HTML5 validator results after testing](testing\html-validator-after.png)
