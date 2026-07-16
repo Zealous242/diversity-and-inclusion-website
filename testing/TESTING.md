@@ -185,3 +185,8 @@ As a user, I want the website to use semantic HTML5 elements so that the content
 **Met?** Yes
 
 **Evidence:** See index.html
+
+# Bugs
+
+Originally, there was too much excess margin and padding between headings and paragraphs. I resolved this by removing padding from h1 and h2 elements in section elements 
+
