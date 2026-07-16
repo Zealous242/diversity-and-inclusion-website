@@ -404,6 +404,7 @@ section#examples h2 {
 
 #other-resources li {
   list-style-type: none;
+  margin: 15px 0;
 }
 
 /* Back to top button*/
@@ -459,6 +460,7 @@ footer p {
   display: flex;
   align-items: flex-end;
   align-self: flex-end;
+  justify-content: center;
 }
 
 #social-networks i {
