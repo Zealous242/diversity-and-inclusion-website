@@ -4,7 +4,7 @@ The name of this website is D&I and is being developed as part of Code Institute
 
 # Link To Site
 
-https://majestic-speculoos-d4acd6.netlify.app/ 
+https://zealous242.github.io/diversity-and-inclusion-website/
 
 # UX/UI Study
 
