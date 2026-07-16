@@ -252,6 +252,56 @@ Functional requirements describe what the website must do to meet the needs of i
 D&I has the following features implemented into it to allow for the UI to be intuitive and easy to follow:
 
 * A responsive navigation bar that remains fixed at the top of the page so that it is easy and quick to find
+* A logo in top-left of the screen that remains fixed
 * A hero section at the top of the page to give a brief introduction to the website
+* Definitions of diversity and inclusion
+* Real-world examples of diversity and inclusion
+* A section explaining the importance of diversity and inclusion
+* Facts, statistics, charts and diagrams
+* A services section containing relevant images of the services and concise text explaining them
+* A summary section
+* Links to other useful resources
+* A contact form
 * Animations have been added to areas like the navbar links and table rows to add hover effects
-* 
+* Accessibility features
+* A back-to-top button that takes the user back to the top
+* Links to social media pages including: Instagram, Facebook, YouTube, Twitter
+* A footer that remains at the bottom of the page but not fixed on the screen
+
+# Technologies Used
+* HTML5
+* CSS3
+* Git and GitHub
+* GitHub Pages for deployment
+* Font Awsome
+* CoPilot
+* ChatGPT
+* Markdown Builder
+
+# AI Usage
+
+ChatGPT and CoPilot were used to generate user stories for the website. They were also used to define the functional and non-function user requirements. 
+
+Furthermore, CoPilot was used to refine user stories and simplify them as well as to generate code suggestions.
+
+# Deployment 
+The site was deployed to GitHub pages. The steps taken to do this are as follows:
+
+1. Navigate to the repository
+2. Click on settings
+3. Go to pages
+4. In the "Build and deployment" section set the source to "Deploy from main branch"
+5. Click Save
+6. Wait 5 minutes for the link to go live
+7. After 5 minutes or more refresh the page and you should see the link
+8. Click Visit Site
+
+The link to the diversity and inclusion website can be found at: [D&I Website](https://zealous242.github.io/diversity-and-inclusion-website/#back-to-top-point)
+
+# Credits
+List of resources and websites used for research and writing code:
+* https://www.w3schools.com/ 
+* https://developer.mozilla.org/en-US/
+* https://globaldiversitypractice.com/what-is-diversity-inclusion/  
+* https://www.acas.org.uk/improving-equality-diversity-and-inclusion 
+* https://unglobalcompact.org/take-action/action/dei
